@@ -11,5 +11,7 @@ block content
               p Jackets: #{jacke.jackets}
               p Cost: #{jacke.cost}
               p Brand: #{jacke.brand}
-
-  
+  script.
+    function buy(index) {
+      alert('You purchased item ' + (index+1));
+    }
